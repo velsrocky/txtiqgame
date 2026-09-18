@@ -5,6 +5,7 @@ import { animals } from './animals';
 import { math } from './math';
 import { words } from './words';
 import { science } from './science';
+import { geography } from './geography';
 
 export type { Question, QuestionPack, QuestionType } from './types';
 
@@ -14,5 +15,6 @@ export const allQuestions: Question[] = [
 	...animals,
 	...math,
 	...words,
-	...science
+	...science,
+	...geography
 ];

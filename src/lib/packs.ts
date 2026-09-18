@@ -42,5 +42,12 @@ export const packs: PackInfo[] = [
 		emoji: '🔬',
 		description: 'Scientific knowledge',
 		unlockRequirement: 15
+	},
+	{
+		id: 'geography',
+		name: 'World Explorer',
+		emoji: '🌍',
+		description: 'Geography & world trivia',
+		unlockRequirement: 20
 	}
 ];

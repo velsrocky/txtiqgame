@@ -424,5 +424,230 @@ export const space: Question[] = [
 		emoji: '🌔',
 		pack: 'space',
 		explanation: 'The Moon makes no light of its own; it reflects sunlight toward Earth'
+	},
+	{
+		id: 121,
+		type: 'logic',
+		question: 'Which planet is closest to the Sun?',
+		options: ['Venus', 'Mercury', 'Earth', 'Mars'],
+		correctAnswer: 1,
+		emoji: '☀️',
+		pack: 'space',
+		explanation: 'Mercury is the innermost planet of the solar system'
+	},
+	{
+		id: 122,
+		type: 'math',
+		question:
+			'A year on Mercury is about 88 Earth days. About how many Mercury years fit into one Earth year (365 days)?',
+		options: ['About 2', 'About 4', 'About 6', 'About 8'],
+		correctAnswer: 1,
+		emoji: '🪐',
+		pack: 'space',
+		explanation: '365 ÷ 88 ≈ 4.15, so roughly 4 Mercury years'
+	},
+	{
+		id: 123,
+		type: 'verbal',
+		question: 'Comet is to Ice as Asteroid is to:',
+		options: ['Rock', 'Ice', 'Gas', 'Water'],
+		correctAnswer: 0,
+		emoji: '☄️',
+		pack: 'space',
+		explanation: 'Comets are largely icy; asteroids are made of rock and metal'
+	},
+	{
+		id: 124,
+		type: 'logic',
+		question: 'Which of these is a galaxy?',
+		options: ['The Sun', 'The Moon', 'The Milky Way', 'Jupiter'],
+		correctAnswer: 2,
+		emoji: '🌌',
+		pack: 'space',
+		explanation: 'The Milky Way is the galaxy that contains our solar system'
+	},
+	{
+		id: 125,
+		type: 'math',
+		question: 'A spacecraft travels at 40,000 km/h. How far does it go in 3 hours?',
+		options: ['40,000 km', '80,000 km', '120,000 km', '160,000 km'],
+		correctAnswer: 2,
+		emoji: '🚀',
+		pack: 'space',
+		explanation: '40,000 × 3 = 120,000 km'
+	},
+	{
+		id: 126,
+		type: 'verbal',
+		question: 'Observatories are usually built high on mountains mainly to:',
+		options: [
+			'Be closer to the stars',
+			'Avoid the distortion of the atmosphere',
+			'Stay warm at night',
+			'Hide from city lights'
+		],
+		correctAnswer: 1,
+		emoji: '🔭',
+		pack: 'space',
+		explanation: 'Looking through less air means a steadier, clearer view of the sky'
+	},
+	{
+		id: 127,
+		type: 'logic',
+		question: 'Which planet has a day longer than its year?',
+		options: ['Mars', 'Jupiter', 'Venus', 'Saturn'],
+		correctAnswer: 2,
+		emoji: '🤯',
+		pack: 'space',
+		explanation: 'Venus rotates once in 243 days but orbits the Sun in just 225 days'
+	},
+	{
+		id: 128,
+		type: 'math',
+		question:
+			'A satellite orbits Earth every 90 minutes. How many orbits does it complete in 6 hours?',
+		options: ['2', '4', '6', '8'],
+		correctAnswer: 1,
+		emoji: '🛰️',
+		pack: 'space',
+		explanation: '6 hours is 360 minutes, and 360 ÷ 90 = 4 orbits'
+	},
+	{
+		id: 129,
+		type: 'verbal',
+		question: 'Crescent, gibbous and full are all phases of:',
+		options: ['The Sun', 'The Moon', 'Venus', 'A comet'],
+		correctAnswer: 1,
+		emoji: '🌗',
+		pack: 'space',
+		explanation: 'The Moon cycles through these shapes as sunlight hits it from different angles'
+	},
+	{
+		id: 130,
+		type: 'logic',
+		question: 'Why do we always see the same side of the Moon from Earth?',
+		options: [
+			'It does not rotate at all',
+			'It rotates once per orbit, keeping one face toward us',
+			'It is flat on one side',
+			'It is too far away to turn'
+		],
+		correctAnswer: 1,
+		emoji: '🌝',
+		pack: 'space',
+		explanation: 'The Moon spins at the same rate it orbits, a state called tidal locking'
+	},
+	{
+		id: 131,
+		type: 'math',
+		question:
+			'If you weigh 60 kg on Earth and gravity on the Moon is about one sixth as strong, what is your weight on the Moon?',
+		options: ['6 kg', '10 kg', '60 kg', '360 kg'],
+		correctAnswer: 1,
+		emoji: '🦶',
+		pack: 'space',
+		explanation: '60 ÷ 6 = 10 kg on the Moon'
+	},
+	{
+		id: 132,
+		type: 'logic',
+		question: 'Which of these is NOT a planet?',
+		options: ['Mercury', 'Pluto', 'Saturn', 'Neptune'],
+		correctAnswer: 1,
+		emoji: '🧊',
+		pack: 'space',
+		explanation: 'Pluto is classified as a dwarf planet, not a full planet'
+	},
+	{
+		id: 133,
+		type: 'verbal',
+		question: 'Cosmos most nearly means:',
+		options: ['Universe', 'Planet', 'Star', 'Solar system'],
+		correctAnswer: 0,
+		emoji: '🌠',
+		pack: 'space',
+		explanation: 'The cosmos is the whole universe'
+	},
+	{
+		id: 134,
+		type: 'math',
+		question:
+			'A star is 4 light-years away. If one light-year is about 9.5 trillion km, roughly how far is the star?',
+		options: ['9.5 trillion km', '19 trillion km', '38 trillion km', '4 trillion km'],
+		correctAnswer: 2,
+		emoji: '⭐',
+		pack: 'space',
+		explanation: '4 × 9.5 = 38 trillion km'
+	},
+	{
+		id: 135,
+		type: 'logic',
+		question: 'The largest volcano known in the solar system, Olympus Mons, is found on:',
+		options: ['Earth', 'Mars', 'Venus', 'Jupiter'],
+		correctAnswer: 1,
+		emoji: '🌋',
+		pack: 'space',
+		explanation: 'Olympus Mons is a giant shield volcano on Mars'
+	},
+	{
+		id: 136,
+		type: 'verbal',
+		question: 'An equinox happens when:',
+		options: [
+			'Day and night are about equal in length',
+			'The Sun is closest to Earth',
+			'The Moon is full',
+			'A solar eclipse occurs'
+		],
+		correctAnswer: 0,
+		emoji: '🌗',
+		pack: 'space',
+		explanation: 'At an equinox the Sun sits above the equator, giving roughly equal day and night'
+	},
+	{
+		id: 137,
+		type: 'math',
+		question:
+			'Two moons orbit a planet: one takes 10 days, the other 20 days. If they line up today, in how many days will they next line up?',
+		options: ['10', '15', '20', '30'],
+		correctAnswer: 2,
+		emoji: '🌙',
+		pack: 'space',
+		explanation: 'The slower moon finishes one lap just as the faster finishes two: 20 days'
+	},
+	{
+		id: 138,
+		type: 'logic',
+		question: 'Which planet is known to have the most moons?',
+		options: ['Mars', 'Jupiter', 'Saturn', 'Earth'],
+		correctAnswer: 2,
+		emoji: '🪐',
+		pack: 'space',
+		explanation: 'Saturn has the most confirmed moons of any planet, well over 100'
+	},
+	{
+		id: 139,
+		type: 'verbal',
+		question: 'Which term describes the path a planet takes around the Sun?',
+		options: ['Axis', 'Orbit', 'Rotation', 'Cycle'],
+		correctAnswer: 1,
+		emoji: '🔄',
+		pack: 'space',
+		explanation: 'An orbit is the curved path one body follows around another'
+	},
+	{
+		id: 140,
+		type: 'logic',
+		question: 'The habitable zone around a star is the region where:',
+		options: [
+			'It is always daytime',
+			'Liquid water can exist on a planet surface',
+			'Planets are largest',
+			'There is no gravity'
+		],
+		correctAnswer: 1,
+		emoji: '💧',
+		pack: 'space',
+		explanation: 'Not too hot and not too cold, liquid water can survive there'
 	}
 ];

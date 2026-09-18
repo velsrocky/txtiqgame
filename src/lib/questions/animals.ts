@@ -406,5 +406,222 @@ export const animals: Question[] = [
 		emoji: '🐦',
 		pack: 'animals',
 		explanation: 'The Arctic tern flies between the Arctic and Antarctic each year'
+	},
+	{
+		id: 141,
+		type: 'logic',
+		question: 'Which of these animals can regenerate lost arms?',
+		options: ['Eagle', 'Starfish', 'Lion', 'Snake'],
+		correctAnswer: 1,
+		emoji: '⭐',
+		pack: 'animals',
+		explanation: 'A starfish can regrow arms that are lost or damaged'
+	},
+	{
+		id: 142,
+		type: 'math',
+		question:
+			'A farm has only chickens and cows. There are 36 heads and 100 legs in total. How many cows are there?',
+		options: ['10', '12', '14', '16'],
+		correctAnswer: 2,
+		emoji: '🐄',
+		pack: 'animals',
+		explanation: 'If all 36 were chickens there would be 72 legs; the 28 extra legs mean 14 cows'
+	},
+	{
+		id: 143,
+		type: 'verbal',
+		question: 'A scavenger animal is one that:',
+		options: ['Hunts live prey', 'Eats dead animals', 'Eats only plants', 'Lives in water'],
+		correctAnswer: 1,
+		emoji: '🦅',
+		pack: 'animals',
+		explanation: 'Scavengers, like vultures, clean up animals that are already dead'
+	},
+	{
+		id: 144,
+		type: 'logic',
+		question: 'Which animal is the fastest on land?',
+		options: ['Lion', 'Cheetah', 'Horse', 'Greyhound'],
+		correctAnswer: 1,
+		emoji: '🐆',
+		pack: 'animals',
+		explanation: 'Cheetahs can sprint over 100 km/h for short distances'
+	},
+	{
+		id: 145,
+		type: 'math',
+		question: 'A whale heart beats about 8 times per minute. How many beats is that per hour?',
+		options: ['240', '360', '480', '600'],
+		correctAnswer: 2,
+		emoji: '🐋',
+		pack: 'animals',
+		explanation: '8 × 60 = 480 beats per hour'
+	},
+	{
+		id: 146,
+		type: 'verbal',
+		question: 'Camouflage most nearly means:',
+		options: [
+			'Bright warning colors',
+			'Blending into the surroundings',
+			'A loud cry',
+			'A fast sprint'
+		],
+		correctAnswer: 1,
+		emoji: '🦎',
+		pack: 'animals',
+		explanation: 'Camouflage hides an animal by making it look like its surroundings'
+	},
+	{
+		id: 147,
+		type: 'logic',
+		question: 'Which of these is an amphibian?',
+		options: ['Lizard', 'Frog', 'Snake', 'Turtle'],
+		correctAnswer: 1,
+		emoji: '🐸',
+		pack: 'animals',
+		explanation: 'Frogs are amphibians; lizards, snakes and turtles are reptiles'
+	},
+	{
+		id: 148,
+		type: 'math',
+		question: 'A spider has 8 legs. If a web holds 48 spider legs, how many spiders are in it?',
+		options: ['4', '6', '8', '12'],
+		correctAnswer: 1,
+		emoji: '🕷️',
+		pack: 'animals',
+		explanation: '48 ÷ 8 = 6 spiders'
+	},
+	{
+		id: 149,
+		type: 'verbal',
+		question: 'Hibernation is:',
+		options: [
+			'A long deep sleep through the cold season',
+			'Moving to a warmer land',
+			'Shedding old skin',
+			'Hunting only at night'
+		],
+		correctAnswer: 0,
+		emoji: '🐻',
+		pack: 'animals',
+		explanation: 'Hibernating animals slow their bodies down to survive the winter'
+	},
+	{
+		id: 150,
+		type: 'logic',
+		question: 'Which animal is famous for changing color to match its surroundings?',
+		options: ['Chameleon', 'Panda', 'Elephant', 'Owl'],
+		correctAnswer: 0,
+		emoji: '🦎',
+		pack: 'animals',
+		explanation: 'Chameleons shift their skin color to signal others and to regulate heat'
+	},
+	{
+		id: 151,
+		type: 'math',
+		question: 'A rabbit eats 2 cups of pellets a day. How many cups does it eat in a 30-day month?',
+		options: ['30', '45', '60', '90'],
+		correctAnswer: 2,
+		emoji: '🐰',
+		pack: 'animals',
+		explanation: '2 × 30 = 60 cups'
+	},
+	{
+		id: 152,
+		type: 'logic',
+		question: 'Which of these can generate a strong electric shock?',
+		options: ['Salmon', 'Electric eel', 'Tuna', 'Clownfish'],
+		correctAnswer: 1,
+		emoji: '⚡',
+		pack: 'animals',
+		explanation: 'Electric eels stun prey with powerful electric organs'
+	},
+	{
+		id: 153,
+		type: 'verbal',
+		question: 'Bee is to Nectar as Cow is to:',
+		options: ['Grass', 'Milk', 'Barn', 'Hay'],
+		correctAnswer: 0,
+		emoji: '🐝',
+		pack: 'animals',
+		explanation: 'Bees gather nectar; cows graze on grass'
+	},
+	{
+		id: 154,
+		type: 'math',
+		question:
+			'A zoo has 3 enclosures holding 12, 15 and 9 animals. What is the average per enclosure?',
+		options: ['10', '12', '14', '36'],
+		correctAnswer: 1,
+		emoji: '🦁',
+		pack: 'animals',
+		explanation: 'The sum is 36 animals over 3 enclosures, an average of 12'
+	},
+	{
+		id: 155,
+		type: 'logic',
+		question: 'Which bird is known for weaving intricate hanging nests?',
+		options: ['Eagle', 'Weaverbird', 'Penguin', 'Sparrow'],
+		correctAnswer: 1,
+		emoji: '🐦',
+		pack: 'animals',
+		explanation: 'Weaverbirds weave grass into elaborate hanging nests'
+	},
+	{
+		id: 156,
+		type: 'math',
+		question: 'An aquarium tank holds 200 liters of water. If 25% evaporates, how much remains?',
+		options: ['50 L', '150 L', '175 L', '180 L'],
+		correctAnswer: 1,
+		emoji: '🐠',
+		pack: 'animals',
+		explanation: '25% of 200 is 50, so 200 - 50 = 150 liters remain'
+	},
+	{
+		id: 157,
+		type: 'verbal',
+		question: 'A mammal is an animal that:',
+		options: [
+			'Lays eggs in water',
+			'Produces milk to feed its young',
+			'Has feathers and wings',
+			'Lives only in the sea'
+		],
+		correctAnswer: 1,
+		emoji: '🐧',
+		pack: 'animals',
+		explanation: 'Feeding young with milk is the defining trait of mammals'
+	},
+	{
+		id: 158,
+		type: 'logic',
+		question: 'Which of these is NOT a fish?',
+		options: ['Shark', 'Whale', 'Salmon', 'Tuna'],
+		correctAnswer: 1,
+		emoji: '🐋',
+		pack: 'animals',
+		explanation: 'Whales are mammals that breathe air, not fish'
+	},
+	{
+		id: 159,
+		type: 'math',
+		question: 'A flock of birds flies 240 km in 4 hours. What is its average speed?',
+		options: ['40 km/h', '50 km/h', '60 km/h', '90 km/h'],
+		correctAnswer: 2,
+		emoji: '🦆',
+		pack: 'animals',
+		explanation: '240 ÷ 4 = 60 km/h'
+	},
+	{
+		id: 160,
+		type: 'logic',
+		question: 'Chameleons, iguanas and geckos are all:',
+		options: ['Snakes', 'Lizards', 'Amphibians', 'Mammals'],
+		correctAnswer: 1,
+		emoji: '🦎',
+		pack: 'animals',
+		explanation: 'These scaly, four-legged reptiles are all lizards'
 	}
 ];

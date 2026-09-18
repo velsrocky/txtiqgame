@@ -100,6 +100,20 @@ function seededRandom(seed: number) {
 	};
 }
 
+// Question IDs the player has already been served this session, so
+// back-to-back games in the same pack stay fresh. In-memory only: it resets
+// on reload, and the daily challenge is deliberately excluded (see below).
+const RECENT_WINDOW = 40;
+const recentQuestionKeys: string[] = [];
+
+function rememberQuestions(pack: QuestionPack, questions: Question[]): void {
+	for (const q of questions) recentQuestionKeys.push(`${pack}:${q.id}`);
+	// Keep only the newest entries so a pack can never exhaust its own pool
+	if (recentQuestionKeys.length > RECENT_WINDOW) {
+		recentQuestionKeys.splice(0, recentQuestionKeys.length - RECENT_WINDOW);
+	}
+}
+
 function generateQuestions(mode: GameMode, pack: QuestionPack): Question[] {
 	const packQuestions = allQuestions.filter((q) => q.pack === pack);
 
@@ -108,7 +122,20 @@ function generateQuestions(mode: GameMode, pack: QuestionPack): Question[] {
 		return shuffle(packQuestions, dailySeed()).slice(0, QUESTIONS_PER_GAME);
 	}
 
-	return shuffle(packQuestions).slice(0, QUESTIONS_PER_GAME);
+	// Prefer questions not yet seen this session. If too few remain, rebuild
+	// from the full pack but keep the most recent round out of play, so even a
+	// well-played pack never serves the same round twice in a row.
+	const fresh = packQuestions.filter((q) => !recentQuestionKeys.includes(`${pack}:${q.id}`));
+	let pool = fresh;
+	if (pool.length < QUESTIONS_PER_GAME) {
+		const lastRound = new Set(recentQuestionKeys.slice(-QUESTIONS_PER_GAME));
+		const fallback = packQuestions.filter((q) => !lastRound.has(`${pack}:${q.id}`));
+		pool = fallback.length >= QUESTIONS_PER_GAME ? fallback : packQuestions;
+	}
+
+	const picked = shuffle(pool).slice(0, QUESTIONS_PER_GAME);
+	rememberQuestions(pack, picked);
+	return picked;
 }
 
 export class GameStore {

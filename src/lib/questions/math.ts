@@ -400,5 +400,205 @@ export const math: Question[] = [
 		emoji: '⚖️',
 		pack: 'math',
 		explanation: 'Subtract 3x from both sides: 2x − 2 = 10, so 2x = 12 and x = 6'
+	},
+	{
+		id: 161,
+		type: 'math',
+		question: 'What is 12 × 11?',
+		options: ['121', '132', '144', '124'],
+		correctAnswer: 1,
+		emoji: '✖️',
+		pack: 'math',
+		explanation: '12 × 11 = 132'
+	},
+	{
+		id: 162,
+		type: 'math',
+		question: 'If x ÷ 5 = 9, what is x?',
+		options: ['40', '45', '50', '14'],
+		correctAnswer: 1,
+		emoji: '➗',
+		pack: 'math',
+		explanation: 'Multiply both sides by 5: x = 9 × 5 = 45'
+	},
+	{
+		id: 163,
+		type: 'logic',
+		question: 'What comes next? 2, 3, 5, 7, 11, 13, ___',
+		options: ['15', '16', '17', '19'],
+		correctAnswer: 2,
+		emoji: '🔢',
+		pack: 'math',
+		explanation: 'These are prime numbers in order; the next prime after 13 is 17'
+	},
+	{
+		id: 164,
+		type: 'math',
+		question: 'What is 3/4 written as a decimal?',
+		options: ['0.25', '0.5', '0.75', '0.8'],
+		correctAnswer: 2,
+		emoji: '🔢',
+		pack: 'math',
+		explanation: '3 ÷ 4 = 0.75'
+	},
+	{
+		id: 165,
+		type: 'math',
+		question: 'A square has a side length of 9. What is its area?',
+		options: ['36', '72', '81', '90'],
+		correctAnswer: 2,
+		emoji: '⬜',
+		pack: 'math',
+		explanation: 'Area = side × side = 9 × 9 = 81'
+	},
+	{
+		id: 166,
+		type: 'logic',
+		question: 'If a = 3 and b = 4, what is a² + b²?',
+		options: ['12', '25', '49', '144'],
+		correctAnswer: 1,
+		emoji: '➗',
+		pack: 'math',
+		explanation: '3² = 9 and 4² = 16, so 9 + 16 = 25'
+	},
+	{
+		id: 167,
+		type: 'math',
+		question: 'What is 15 × 15?',
+		options: ['200', '215', '225', '250'],
+		correctAnswer: 2,
+		emoji: '✖️',
+		pack: 'math',
+		explanation: '15 × 15 = 225'
+	},
+	{
+		id: 168,
+		type: 'math',
+		question: 'A train leaves at 2:45 PM and arrives at 4:15 PM. How long was the trip?',
+		options: ['1 hour', '1 hour 30 minutes', '2 hours', '75 minutes'],
+		correctAnswer: 1,
+		emoji: '🚂',
+		pack: 'math',
+		explanation: 'From 2:45 to 4:15 is 90 minutes, or one and a half hours'
+	},
+	{
+		id: 169,
+		type: 'logic',
+		question: 'What number is exactly halfway between 30 and 50?',
+		options: ['35', '38', '40', '45'],
+		correctAnswer: 2,
+		emoji: '📊',
+		pack: 'math',
+		explanation: 'The average of 30 and 50 is (30 + 50) ÷ 2 = 40'
+	},
+	{
+		id: 170,
+		type: 'math',
+		question: 'Shoes cost $120 after a 20% discount. What was the original price?',
+		options: ['$140', '$144', '$150', '$160'],
+		correctAnswer: 2,
+		emoji: '👟',
+		pack: 'math',
+		explanation: 'The $120 is 80% of the original, so 120 ÷ 0.8 = $150'
+	},
+	{
+		id: 171,
+		type: 'math',
+		question: 'What do the interior angles of a triangle always add up to?',
+		options: ['90°', '180°', '270°', '360°'],
+		correctAnswer: 1,
+		emoji: '📐',
+		pack: 'math',
+		explanation: 'The angles of every triangle sum to 180 degrees'
+	},
+	{
+		id: 172,
+		type: 'logic',
+		question: 'Which of these is the largest?',
+		options: ['0.6', '0.58', '0.61', '0.59'],
+		correctAnswer: 2,
+		emoji: '🔍',
+		pack: 'math',
+		explanation: '0.61 is larger than 0.6, 0.59 and 0.58'
+	},
+	{
+		id: 173,
+		type: 'math',
+		question: 'What is 100 − 37?',
+		options: ['53', '63', '73', '67'],
+		correctAnswer: 1,
+		emoji: '➖',
+		pack: 'math',
+		explanation: '100 − 37 = 63'
+	},
+	{
+		id: 174,
+		type: 'math',
+		question: 'A book has 240 pages. If you read one sixth of it, how many pages is that?',
+		options: ['20', '30', '40', '60'],
+		correctAnswer: 2,
+		emoji: '📖',
+		pack: 'math',
+		explanation: '240 ÷ 6 = 40 pages'
+	},
+	{
+		id: 175,
+		type: 'logic',
+		question: 'What comes next? 5, 11, 23, 47, ___',
+		options: ['79', '91', '95', '99'],
+		correctAnswer: 2,
+		emoji: '🔢',
+		pack: 'math',
+		explanation: 'Each number doubles then adds 1: 47 × 2 = 94, then 94 + 1 = 95'
+	},
+	{
+		id: 176,
+		type: 'math',
+		question: 'What is the volume of a box 4 long, 3 wide and 2 high?',
+		options: ['12', '24', '26', '48'],
+		correctAnswer: 1,
+		emoji: '📦',
+		pack: 'math',
+		explanation: 'Volume = length × width × height = 4 × 3 × 2 = 24'
+	},
+	{
+		id: 177,
+		type: 'math',
+		question: 'If 1 kg of apples costs $3, how much do 2.5 kg cost?',
+		options: ['$6.00', '$7.50', '$8.00', '$9.00'],
+		correctAnswer: 1,
+		emoji: '🛒',
+		pack: 'math',
+		explanation: '3 × 2.5 = $7.50'
+	},
+	{
+		id: 178,
+		type: 'logic',
+		question: 'Which symbol makes this true: 8 _ 2 = 4?',
+		options: ['+', '−', '×', '÷'],
+		correctAnswer: 3,
+		emoji: '➗',
+		pack: 'math',
+		explanation: '8 ÷ 2 = 4'
+	},
+	{
+		id: 179,
+		type: 'math',
+		question: 'What is the mean of 5, 5, 10 and 10?',
+		options: ['5', '7.5', '10', '30'],
+		correctAnswer: 1,
+		emoji: '📊',
+		pack: 'math',
+		explanation: 'The sum is 30 over 4 numbers, so the mean is 7.5'
+	},
+	{
+		id: 180,
+		type: 'math',
+		question: 'A clock loses 5 minutes every hour. How many minutes does it lose in 12 hours?',
+		options: ['36', '50', '60', '72'],
+		correctAnswer: 2,
+		emoji: '🕐',
+		pack: 'math',
+		explanation: '5 × 12 = 60 minutes'
 	}
 ];

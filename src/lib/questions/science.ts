@@ -404,5 +404,236 @@ export const science: Question[] = [
 		emoji: '🌍',
 		pack: 'science',
 		explanation: 'The gravity of the Sun holds every planet in its orbit'
+	},
+	{
+		id: 201,
+		type: 'logic',
+		question: 'Which part of the cell is called its "powerhouse"?',
+		options: ['Nucleus', 'Mitochondria', 'Ribosome', 'Membrane'],
+		correctAnswer: 1,
+		emoji: '🔋',
+		pack: 'science',
+		explanation: 'Mitochondria release the energy that powers the cell'
+	},
+	{
+		id: 202,
+		type: 'math',
+		question:
+			'Sound travels at about 340 m/s. If lightning strikes 1,700 m away, about how long until you hear it?',
+		options: ['2 s', '5 s', '10 s', '17 s'],
+		correctAnswer: 1,
+		emoji: '⚡',
+		pack: 'science',
+		explanation: '1,700 ÷ 340 = 5 seconds'
+	},
+	{
+		id: 203,
+		type: 'verbal',
+		question: 'Chemistry is to Atoms as Biology is to:',
+		options: ['Cells', 'Planets', 'Equations', 'Words'],
+		correctAnswer: 0,
+		emoji: '🧬',
+		pack: 'science',
+		explanation: 'Biology studies living things, whose basic unit is the cell'
+	},
+	{
+		id: 204,
+		type: 'logic',
+		question: 'Which of these is a renewable energy source?',
+		options: ['Coal', 'Oil', 'Solar', 'Natural gas'],
+		correctAnswer: 2,
+		emoji: '☀️',
+		pack: 'science',
+		explanation: 'Sunlight keeps shining; coal, oil and gas take millions of years to form'
+	},
+	{
+		id: 205,
+		type: 'math',
+		question: 'A resistor has 10 ohms and 2 amps flow through it. What is the voltage across it?',
+		options: ['5 V', '8 V', '12 V', '20 V'],
+		correctAnswer: 3,
+		emoji: '🔌',
+		pack: 'science',
+		explanation: 'Voltage = current × resistance, so 2 × 10 = 20 volts'
+	},
+	{
+		id: 206,
+		type: 'verbal',
+		question: 'An omnivore is an animal that:',
+		options: [
+			'Eats only plants',
+			'Eats both plants and animals',
+			'Eats only meat',
+			'Eats nothing at all'
+		],
+		correctAnswer: 1,
+		emoji: '🍽️',
+		pack: 'science',
+		explanation: 'Omnivores, like humans and bears, eat both plants and animals'
+	},
+	{
+		id: 207,
+		type: 'logic',
+		question: 'What causes the seasons on Earth?',
+		options: [
+			'Our distance from the Sun',
+			'The tilt of the Earth on its axis',
+			'The pull of the Moon',
+			'Cloud cover'
+		],
+		correctAnswer: 1,
+		emoji: '🌍',
+		pack: 'science',
+		explanation:
+			'The tilted axis means each hemisphere faces the Sun more directly at different times'
+	},
+	{
+		id: 208,
+		type: 'math',
+		question: 'A 100 W bulb runs for 10 hours. How much energy does it use?',
+		options: ['100 Wh', '1,000 Wh', '10,000 Wh', '10 Wh'],
+		correctAnswer: 1,
+		emoji: '💡',
+		pack: 'science',
+		explanation: 'Energy = power × time = 100 × 10 = 1,000 watt-hours'
+	},
+	{
+		id: 209,
+		type: 'verbal',
+		question: 'A gene is:',
+		options: [
+			'A unit of heredity',
+			'A type of blood cell',
+			'A chemical that burns',
+			'A particle of light'
+		],
+		correctAnswer: 0,
+		emoji: '🧬',
+		pack: 'science',
+		explanation: 'Genes carry the instructions that traits pass along'
+	},
+	{
+		id: 210,
+		type: 'logic',
+		question: 'Which of these materials conducts electricity?',
+		options: ['Plastic', 'Rubber', 'Copper', 'Glass'],
+		correctAnswer: 2,
+		emoji: '🪙',
+		pack: 'science',
+		explanation: 'Metals like copper let current flow; the others insulate'
+	},
+	{
+		id: 211,
+		type: 'math',
+		question:
+			'The Sun is about 8 light-minutes away and light travels 300,000 km/s. About how far is that in km?',
+		options: ['18,000,000 km', '144,000,000 km', '300,000 km', '1,440,000 km'],
+		correctAnswer: 1,
+		emoji: '⭐',
+		pack: 'science',
+		explanation: '8 minutes is 480 seconds, and 480 × 300,000 = 144,000,000 km'
+	},
+	{
+		id: 212,
+		type: 'verbal',
+		question: 'Velocity means "speed in a direction". Mass means:',
+		options: [
+			'The amount of matter in something',
+			'How fast something moves',
+			'A push or pull',
+			'The energy used'
+		],
+		correctAnswer: 0,
+		emoji: '⚖️',
+		pack: 'science',
+		explanation: 'Mass measures how much matter an object contains'
+	},
+	{
+		id: 213,
+		type: 'logic',
+		question: 'Which organ pumps blood through the human body?',
+		options: ['Liver', 'Heart', 'Lungs', 'Brain'],
+		correctAnswer: 1,
+		emoji: '❤️',
+		pack: 'science',
+		explanation: 'The heart pumps blood to every part of the body'
+	},
+	{
+		id: 214,
+		type: 'math',
+		question:
+			'A stone falls freely from rest. After 3 seconds, about how fast is it moving? (g ≈ 10 m/s²)',
+		options: ['10 m/s', '20 m/s', '30 m/s', '3 m/s'],
+		correctAnswer: 2,
+		emoji: '🪨',
+		pack: 'science',
+		explanation: 'Speed grows by about 10 m/s each second: 3 × 10 = 30 m/s'
+	},
+	{
+		id: 215,
+		type: 'verbal',
+		question: 'Photosynthesis in plants happens mostly in the:',
+		options: ['Roots', 'Leaves', 'Flowers', 'Seeds'],
+		correctAnswer: 1,
+		emoji: '🍃',
+		pack: 'science',
+		explanation: 'Leaves hold the chlorophyll that captures sunlight'
+	},
+	{
+		id: 216,
+		type: 'logic',
+		question: 'Which of these is a state of matter?',
+		options: ['Energy', 'Plasma', 'Light', 'Sound'],
+		correctAnswer: 1,
+		emoji: '🔮',
+		pack: 'science',
+		explanation: 'Plasma, like the glowing gas in a neon sign, is a fourth state of matter'
+	},
+	{
+		id: 217,
+		type: 'math',
+		question:
+			'On a lever you push the long arm down 2 m while the short arm lifts a load 0.5 m. What is the mechanical advantage?',
+		options: ['0.25', '2', '4', '5'],
+		correctAnswer: 2,
+		emoji: '⚖️',
+		pack: 'science',
+		explanation: 'Mechanical advantage = input distance ÷ output distance = 2 ÷ 0.5 = 4'
+	},
+	{
+		id: 218,
+		type: 'verbal',
+		question: 'An ecosystem is:',
+		options: [
+			'A single living animal',
+			'A community of living things and their environment',
+			'A type of weather pattern',
+			'A group of identical rocks'
+		],
+		correctAnswer: 1,
+		emoji: '🌳',
+		pack: 'science',
+		explanation:
+			'An ecosystem links the living things in an area with the non-living world around them'
+	},
+	{
+		id: 219,
+		type: 'logic',
+		question: 'Which metal is liquid at room temperature?',
+		options: ['Iron', 'Mercury', 'Gold', 'Aluminium'],
+		correctAnswer: 1,
+		emoji: '🌡️',
+		pack: 'science',
+		explanation: 'Mercury stays liquid in a normal room, which is why it fills old thermometers'
+	},
+	{
+		id: 220,
+		type: 'math',
+		question: 'A thermometer reads 20°C. What is that on the Fahrenheit scale?',
+		options: ['52°F', '68°F', '86°F', '32°F'],
+		correctAnswer: 1,
+		emoji: '🌡️',
+		pack: 'science',
+		explanation: '(20 × 9/5) + 32 = 36 + 32 = 68°F'
 	}
 ];

@@ -401,5 +401,210 @@ export const words: Question[] = [
 		emoji: '🚀',
 		pack: 'words',
 		explanation: 'To facilitate something is to make it easier to accomplish'
+	},
+	{
+		id: 181,
+		type: 'verbal',
+		question: 'Which word means "very tired"?',
+		options: ['Exhausted', 'Excited', 'Eager', 'Elated'],
+		correctAnswer: 0,
+		emoji: '😴',
+		pack: 'words',
+		explanation: 'Exhausted means completely worn out'
+	},
+	{
+		id: 182,
+		type: 'verbal',
+		question: 'Rapid most nearly means:',
+		options: ['Slow', 'Quick', 'Large', 'Quiet'],
+		correctAnswer: 1,
+		emoji: '💨',
+		pack: 'words',
+		explanation: 'Rapid means happening very quickly'
+	},
+	{
+		id: 183,
+		type: 'logic',
+		question: 'Which word does not belong with the others?',
+		options: ['Spring', 'Summer', 'River', 'Winter'],
+		correctAnswer: 2,
+		emoji: '🌊',
+		pack: 'words',
+		explanation: 'Spring, summer and winter are seasons; a river is flowing water'
+	},
+	{
+		id: 184,
+		type: 'verbal',
+		question: 'Begin is to End as Start is to:',
+		options: ['Go', 'Finish', 'Stay', 'Begin'],
+		correctAnswer: 1,
+		emoji: '🏁',
+		pack: 'words',
+		explanation: 'To start is to begin something; to finish is to end it'
+	},
+	{
+		id: 185,
+		type: 'verbal',
+		question: 'Which spelling is correct?',
+		options: ['Occassion', 'Ocasion', 'Occasion', 'Occasian'],
+		correctAnswer: 2,
+		emoji: '✍️',
+		pack: 'words',
+		explanation: 'Occasion is spelled with two Cs and one S'
+	},
+	{
+		id: 186,
+		type: 'logic',
+		question: 'Author is to Book as Painter is to:',
+		options: ['Brush', 'Painting', 'Canvas', 'Art'],
+		correctAnswer: 1,
+		emoji: '🎨',
+		pack: 'words',
+		explanation: 'An author creates books; a painter creates paintings'
+	},
+	{
+		id: 187,
+		type: 'verbal',
+		question: 'Cordial most nearly means:',
+		options: ['Cold', 'Friendly', 'Bitter', 'Sharp'],
+		correctAnswer: 1,
+		emoji: '🤝',
+		pack: 'words',
+		explanation: 'A cordial greeting is warm and friendly'
+	},
+	{
+		id: 188,
+		type: 'logic',
+		question: 'Rearrange the letters of KILN to form another word:',
+		options: ['LINK', 'LANK', 'KILL', 'LILT'],
+		correctAnswer: 0,
+		emoji: '🔤',
+		pack: 'words',
+		explanation: 'LINK uses exactly the letters L, I, N, K'
+	},
+	{
+		id: 189,
+		type: 'verbal',
+		question: 'What is the past tense of "go"?',
+		options: ['Goed', 'Went', 'Gone', 'Going'],
+		correctAnswer: 1,
+		emoji: '🚶',
+		pack: 'words',
+		explanation: '"Go" is irregular: its past tense is "went"'
+	},
+	{
+		id: 190,
+		type: 'logic',
+		question: 'Which word is the odd one out?',
+		options: ['Bicycle', 'Tricycle', 'Truck', 'Unicycle'],
+		correctAnswer: 2,
+		emoji: '🚲',
+		pack: 'words',
+		explanation: 'The others are cycles powered by pedaling; a truck is a motor vehicle'
+	},
+	{
+		id: 191,
+		type: 'verbal',
+		question: 'Grateful most nearly means:',
+		options: ['Thankful', 'Angry', 'Hopeful', 'Sorrowful'],
+		correctAnswer: 0,
+		emoji: '🙏',
+		pack: 'words',
+		explanation: 'To be grateful is to feel thankful'
+	},
+	{
+		id: 192,
+		type: 'logic',
+		question: 'Which word has its letters in alphabetical order?',
+		options: ['Almost', 'Table', 'Music', 'Water'],
+		correctAnswer: 0,
+		emoji: '🔤',
+		pack: 'words',
+		explanation: 'A-L-M-O-S-T runs from earliest to latest letter of the alphabet'
+	},
+	{
+		id: 193,
+		type: 'verbal',
+		question: 'Frugal most nearly means:',
+		options: ['Wasteful', 'Thrifty', 'Generous', 'Wealthy'],
+		correctAnswer: 1,
+		emoji: '🪙',
+		pack: 'words',
+		explanation: 'A frugal person spends carefully and saves money'
+	},
+	{
+		id: 194,
+		type: 'logic',
+		question: 'If A = 1, B = 2 and C = 3, what do the letters of CAB add up to?',
+		options: ['5', '6', '7', '9'],
+		correctAnswer: 1,
+		emoji: '🔢',
+		pack: 'words',
+		explanation: 'C = 3, A = 1 and B = 2, so 3 + 1 + 2 = 6'
+	},
+	{
+		id: 195,
+		type: 'verbal',
+		question: 'Which word means "a journey to a holy place"?',
+		options: ['Voyage', 'Pilgrimage', 'Expedition', 'Hike'],
+		correctAnswer: 1,
+		emoji: '🛐',
+		pack: 'words',
+		explanation: 'A pilgrimage is a journey made for religious reasons'
+	},
+	{
+		id: 196,
+		type: 'logic',
+		question: 'Which of these words reads the same backward as forward?',
+		options: ['RACECAR', 'DRIVER', 'PYTHON', 'LETTER'],
+		correctAnswer: 0,
+		emoji: '🪞',
+		pack: 'words',
+		explanation: 'RACECAR reversed is still R-A-C-E-C-A-R'
+	},
+	{
+		id: 197,
+		type: 'verbal',
+		question: 'Diligent most nearly means:',
+		options: ['Lazy', 'Hardworking', 'Careless', 'Quick'],
+		correctAnswer: 1,
+		emoji: '🐝',
+		pack: 'words',
+		explanation: 'A diligent worker is careful and hardworking'
+	},
+	{
+		id: 198,
+		type: 'logic',
+		question: 'Book is to Chapter as House is to:',
+		options: ['Roof', 'Room', 'Street', 'Door'],
+		correctAnswer: 1,
+		emoji: '🏠',
+		pack: 'words',
+		explanation: 'A book is made of chapters; a house is made of rooms'
+	},
+	{
+		id: 199,
+		type: 'verbal',
+		question: 'What is a "synonym"?',
+		options: [
+			'A word with the same meaning as another',
+			'A word with the opposite meaning',
+			'A word that sounds the same',
+			'A made-up word'
+		],
+		correctAnswer: 0,
+		emoji: '📖',
+		pack: 'words',
+		explanation: 'Synonyms, like big and large, share the same meaning'
+	},
+	{
+		id: 200,
+		type: 'logic',
+		question: 'Which word does not belong?',
+		options: ['Apple', 'Cherry', 'Banana', 'Carrot'],
+		correctAnswer: 3,
+		emoji: '🥕',
+		pack: 'words',
+		explanation: 'Apple, cherry and banana are fruits; carrot is a vegetable'
 	}
 ];

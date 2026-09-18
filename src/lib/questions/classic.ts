@@ -504,5 +504,206 @@ export const classic: Question[] = [
 		emoji: '📅',
 		pack: 'classic',
 		explanation: 'Tomorrow is Thursday, so today is Wednesday'
+	},
+	{
+		id: 101,
+		type: 'logic',
+		question: 'What comes next in the sequence? 2, 6, 12, 20, 30, ___',
+		options: ['36', '40', '42', '48'],
+		correctAnswer: 2,
+		emoji: '🔢',
+		pack: 'classic',
+		explanation:
+			'The gaps grow by 2 each time (4, 6, 8, 10), so the next gap is 12 and 30 + 12 = 42'
+	},
+	{
+		id: 102,
+		type: 'verbal',
+		question: 'Doctor is to Patient as Teacher is to:',
+		options: ['Student', 'School', 'Book', 'Class'],
+		correctAnswer: 0,
+		emoji: '🧑‍🏫',
+		pack: 'classic',
+		explanation: 'A doctor treats a patient; a teacher teaches a student'
+	},
+	{
+		id: 103,
+		type: 'math',
+		question: 'A pizza is cut into 8 equal slices. If you eat 3, what fraction remains?',
+		options: ['3/8', '5/8', '1/2', '3/5'],
+		correctAnswer: 1,
+		emoji: '🍕',
+		pack: 'classic',
+		explanation: '8 - 3 = 5 slices remain out of 8, so 5/8'
+	},
+	{
+		id: 104,
+		type: 'logic',
+		question: 'Which number is the odd one out? 3, 5, 7, 9, 11',
+		options: ['3', '5', '9', '11'],
+		correctAnswer: 2,
+		emoji: '🤔',
+		pack: 'classic',
+		explanation: '9 = 3 × 3 is not prime; the others are all prime numbers'
+	},
+	{
+		id: 105,
+		type: 'verbal',
+		question: 'Which word is a synonym for "difficult"?',
+		options: ['Easy', 'Hard', 'Simple', 'Quick'],
+		correctAnswer: 1,
+		emoji: '💪',
+		pack: 'classic',
+		explanation: 'Hard means the same as difficult'
+	},
+	{
+		id: 106,
+		type: 'math',
+		question: 'If 4 apples cost $2.00, how much do 10 apples cost?',
+		options: ['$4.00', '$5.00', '$6.00', '$2.50'],
+		correctAnswer: 1,
+		emoji: '🍎',
+		pack: 'classic',
+		explanation: 'Each apple is 2.00 ÷ 4 = $0.50, so 10 apples cost 10 × 0.50 = $5.00'
+	},
+	{
+		id: 107,
+		type: 'logic',
+		question: 'A is taller than B. B is taller than C. Who is the shortest?',
+		options: ['A', 'B', 'C', 'Cannot tell'],
+		correctAnswer: 2,
+		emoji: '📏',
+		pack: 'classic',
+		explanation: 'A > B > C, so C is the shortest'
+	},
+	{
+		id: 108,
+		type: 'verbal',
+		question: 'Which word means "an animal that eats only plants"?',
+		options: ['Carnivore', 'Omnivore', 'Herbivore', 'Insectivore'],
+		correctAnswer: 2,
+		emoji: '🥬',
+		pack: 'classic',
+		explanation: 'Herbivores eat plants; carnivores eat meat and omnivores eat both'
+	},
+	{
+		id: 109,
+		type: 'math',
+		question: 'What is 25% of 80?',
+		options: ['15', '20', '25', '40'],
+		correctAnswer: 1,
+		emoji: '💯',
+		pack: 'classic',
+		explanation: '25% is one quarter: 80 ÷ 4 = 20'
+	},
+	{
+		id: 110,
+		type: 'logic',
+		question: 'Complete the series: 5, 10, 20, 40, ___',
+		options: ['50', '60', '70', '80'],
+		correctAnswer: 3,
+		emoji: '🔢',
+		pack: 'classic',
+		explanation: 'Each number doubles: 40 × 2 = 80'
+	},
+	{
+		id: 111,
+		type: 'verbal',
+		question: 'Knitter is to Needles as Painter is to:',
+		options: ['Canvas', 'Brush', 'Colors', 'Easel'],
+		correctAnswer: 1,
+		emoji: '🖌️',
+		pack: 'classic',
+		explanation: 'A painter uses a brush, as a knitter uses needles'
+	},
+	{
+		id: 112,
+		type: 'math',
+		question: 'The sum of three consecutive numbers is 36. What is the largest?',
+		options: ['12', '13', '14', '15'],
+		correctAnswer: 1,
+		emoji: '➗',
+		pack: 'classic',
+		explanation: 'The middle number is 36 ÷ 3 = 12, so the numbers are 11, 12 and 13'
+	},
+	{
+		id: 113,
+		type: 'logic',
+		question: 'In a race, you overtake the runner in 2nd place. What position are you in now?',
+		options: ['1st', '2nd', '3rd', 'Last'],
+		correctAnswer: 1,
+		emoji: '🏃',
+		pack: 'classic',
+		explanation: 'You take their place, so you are now 2nd'
+	},
+	{
+		id: 114,
+		type: 'verbal',
+		question: 'Which word is the odd one out?',
+		options: ['Quick', 'Fast', 'Rapid', 'Slow'],
+		correctAnswer: 3,
+		emoji: '🐢',
+		pack: 'classic',
+		explanation: 'Quick, fast and rapid all mean speedy; slow is the opposite'
+	},
+	{
+		id: 115,
+		type: 'math',
+		question: 'A rectangle has length 8 and width 5. What is its perimeter?',
+		options: ['13', '26', '32', '40'],
+		correctAnswer: 1,
+		emoji: '▭️',
+		pack: 'classic',
+		explanation: 'Perimeter = 2 × (length + width) = 2 × 13 = 26'
+	},
+	{
+		id: 116,
+		type: 'logic',
+		question: 'Rearrange the letters of DEAL to form another word:',
+		options: ['LEAD', 'DELL', 'LADY', 'PALE'],
+		correctAnswer: 0,
+		emoji: '🔤',
+		pack: 'classic',
+		explanation: 'LEAD uses exactly the letters D, E, A, L'
+	},
+	{
+		id: 117,
+		type: 'verbal',
+		question: 'Vivacious most nearly means:',
+		options: ['Dull', 'Lively', 'Angry', 'Tired'],
+		correctAnswer: 1,
+		emoji: '✨',
+		pack: 'classic',
+		explanation: 'A vivacious person is lively and full of energy'
+	},
+	{
+		id: 118,
+		type: 'math',
+		question: 'What is the next number? 81, 64, 49, 36, ___',
+		options: ['30', '25', '16', '20'],
+		correctAnswer: 1,
+		emoji: '🔢',
+		pack: 'classic',
+		explanation: 'These are squares counting down: 9², 8², 7², 6², then 5² = 25'
+	},
+	{
+		id: 119,
+		type: 'logic',
+		question: 'Which shape has the most sides?',
+		options: ['Triangle', 'Square', 'Hexagon', 'Pentagon'],
+		correctAnswer: 2,
+		emoji: '⬡',
+		pack: 'classic',
+		explanation: 'A hexagon has 6 sides, more than a pentagon (5), square (4) or triangle (3)'
+	},
+	{
+		id: 120,
+		type: 'verbal',
+		question: 'Genuine most nearly means:',
+		options: ['Fake', 'Authentic', 'Costly', 'Rare'],
+		correctAnswer: 1,
+		emoji: '💎',
+		pack: 'classic',
+		explanation: 'Something genuine is real and authentic, not fake'
 	}
 ];
