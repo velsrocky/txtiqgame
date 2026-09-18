@@ -1,1 +1,8 @@
 @import 'tailwindcss';
+
+/* Visible focus ring for keyboard users (pointer users still get the clean look) */
+:global(:focus-visible) {
+	outline: 3px solid theme(--color-white);
+	outline-offset: 2px;
+	border-radius: 4px;
+}

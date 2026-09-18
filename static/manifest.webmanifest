@@ -1,0 +1,27 @@
+{
+	"name": "TxtIQ – Test Your Intelligence Quotient",
+	"short_name": "TxtIQ",
+	"version": "0.0.2",
+	"description": "A free IQ quiz game: logic, verbal and math puzzles across themed packs, a daily challenge, achievements and personal stats.",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#4c1d95",
+	"theme_color": "#4c1d95",
+	"categories": ["games", "education", "puzzle"],
+	"icons": [
+		{
+			"src": "/icon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any"
+		},
+		{
+			"src": "/icon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "maskable"
+		}
+	]
+}
